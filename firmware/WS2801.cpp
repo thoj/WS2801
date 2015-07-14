@@ -163,7 +163,7 @@ void Adafruit_WS2801::show(void) {
     SPI.transfer(pixels[i]);
   }
 
-  delay(1); // Data is latched by holding clock pin low for 1 millisecond
+  delay(2); // Data is latched by holding clock pin low for 1 millisecond
 }
 
 // Set pixel color from separate 8-bit R, G, B components:
